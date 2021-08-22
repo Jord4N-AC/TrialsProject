@@ -11,16 +11,17 @@
       <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="trombons-image" id="header-img">
       <nav id="nav-bar">
         <ul>
-          <li class="nav-link"><a href="#element1">Element 1</a></li>
-          <li class="nav-link"><a href="#element2">Element 2</a></li>
-          <li class="nav-link"><a href="#element3">Element 3</a></li>
+          <li class="nav-link" href="#element1"><a>Element 1</a></li>
+          <li class="nav-link" href="#element2"><a>Element 2</a></li>
+          <li class="nav-link" href="#element3"><a>Element 3</a></li>
         </ul>
       </nav>
     </header>
 
-    <form id="form">
+    <form id="form" target="_blank" action="https://www.freecodecamp.com/email-submit" method="POST">
       <label>Email:</label>
-      <input type="email" id="email" placeholder="Enter your email here">
+      <input type="email" id="email" placeholder="Enter your email here" name="email">
+      <input type="submit" id="submit">
     </form>
 
     <section id="element1">Element1</section>
