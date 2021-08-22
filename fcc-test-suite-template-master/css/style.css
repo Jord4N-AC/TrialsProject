@@ -13,10 +13,16 @@ section {
     height: 400px;
 }
 
+ul {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 @media screen and (max-width: 545px ){
     body {
         font-size: 1.15em; 
         background-color: blanchedalmond;       
      }
-    }
+}
   
